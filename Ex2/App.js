@@ -8,9 +8,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <PropsComponent name={"Jeres navne"} />
-      <PropsComponent name={"Jeres navne"} />
-      <PropsComponent name={"Jeres navne"} />
-
+      <ButtonComponent/>
       <StatusBar style="auto" />
     </View>
   );
